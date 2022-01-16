@@ -1,6 +1,8 @@
-module github.com/logharvestor/log-harvestor-go
+module github.com/solomon-bush/log-harvestor-go
 
 go 1.17
+
+retract [v1.0.0, v.1.0.1]
 
 require (
 	github.com/google/uuid v1.3.0
